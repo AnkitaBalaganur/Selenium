@@ -14,7 +14,7 @@ public class SignUp {
 			//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 			//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
-			//WebDriverWait wait = new WebDriverWait(driver);
+			WebDriverWait wait = new WebDriverWait(driver,50);
 			
 			driver.get("https://www.instagram.com/");
 			driver.findElement(By.className("_aa4b")).sendKeys("sam");
